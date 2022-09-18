@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+}
+nav{
+    z-index: 1;
+    background-color: black
+}
+nav ul li a{
+    color: rgb(244, 59, 64); 
+    text-decoration: none;
+    font-family: 'Bebas Neue';
+    font-size: 2rem;
+    }
+.index{
+    background-image: url("../multimedios/img/tatuador.jpg");
+    
+    }
+
+.contenedor img{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    
+} 
+.contenedor h1{
+    display: flex;
+    color: rgb(244, 59, 64);
+    font-family: 'Bebas Neue';
+    font-size: 4.8rem;
+     }
+   
+.contenedor p{
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    width: 50%;
+    height: auto;
+}
+
+main section p{
+    
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+}
+
+form label{
+    font-size: 2rem;
+    font-family: 'Bebas Neue';
+    color: rgb(244, 59, 64);
+}
+nav{
+	background-color: none;
+	position: sticky;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 4px 30px;
+	}
+
+	nav ul{
+	display: inline-block;
+	}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 4px;
+	}
+nav ul li a{
+	font-size: 2.4rem;
+	text-decoration: none;
+	color: rgb(244, 59, 64);
+	}
+section{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    margin: 8em 5em;
+    width: 100%;
+}
+section div{
+    overflow: hidden;
+    margin: 10em 18em;
+    width: 100%;
+    }
+header{
+    display: inline;
+    }
+section div, input, form{
+    padding: 14px;
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    margin: 0 1em;
+}
+.map{
+    display: flex;
+    margin: 1.5em;    
+    width: 100%;
+    height: 100%;
+    }
+.datos{
+    width: 400px;
+    margin: 30px 40px 35px 15px;
+    }
+.formulario{
+    align-items: left;
+    justify-content: left;
+    content:normal;
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    margin-left: 50px;
+    padding: auto;
+    }
